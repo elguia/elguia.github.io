@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html><!-- comienzo del documento HTML -->
+
+   <head><!-- Aquí empieza la cabecera de la web -->
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Nosotros</title>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <link rel="stylesheet" href="estilo.css">
+       
+       
+       <style type="text/css">
+    .imagenp{
+    width: 100%;
+    height: 100vh;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(juan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+           section{
+               height: 650px;
+               display: flex;
+               justify-content: space-evenly;
+               align-items: center;
+           }
+           section h2{
+               font-size: 50px;
+               font-weight: 500;
+               margin-bottom: 5px;
+           }
+           section p{
+               margin-bottom: 15px;
+           }
+           section a{
+               display: inline-block;
+               padding: 7px 0;
+               color: #283773;
+               text-decoration: none;
+               width: 100px;
+               text-align: center;
+               border:1px solid #fff;
+               border-radius: 50px;
+               background: #fff;
+           }
+           section img{
+               height: 60%;
+               
+           }
+           section:nth-child(2){
+               background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+           }
+           section:nth-child(3){
+               background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+           }
+           section:nth-child(4){
+               background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+           }
+           
+</style>
+   </head>
+    <body > 
+        
+    <section class="imagenp" id="inicio">
+        <div class="nombre">
+            <h1>¿Quienes Somos?</h1>
+            <p>Un viaje se vive tres veces: cuando lo soñamos,cuando lo<br>vivimos y cuando lo recordamos.</p>
+            <a href="index.html" class="boton">Home</a>
+            </div>
+        </section>
+        <!---Animacion---->
+        <section id="sec1">
+        <div class="contanedor">
+            <h2>Nosotros</h2>
+            <p>Somos una pagina web que ayuda a personas que planean <br>viajar, ayudandoles a planificar y conocer los lugares o lugar que visitara.</p>
+            <a href="#sec2">Seccion 2</a>
+            </div>
+            <img src="sec1.png" alt="">
+        </section>
+        
+        <section id="sec2">
+        <div class="contanedor">
+            <h2>Explora desde<br>casa</h2>
+            <p>Explora todo nuestra pagina web desde donde <br>estes,te ayudara a conocer los mejores sitios del mundo para explorar.</p>
+            <a href="#sec3">Seccion 3</a>
+            </div>
+            <img src="sec2.png" alt="">
+        </section>
+        
+        <section id="sec3">
+        <div class="contanedor">
+            <h2>Viaja</h2>
+            <p>Con nuestra ayuda prodras lograr tu sueño de viajar,te <br>ayudaremos hacer maletas para tu proximo vuelo</p>
+            <a href="#sec1">Seccion 1</a><br><br>
+            <a href="#inicio">Inicio</a>
+            </div>
+            <img src="sec3.png" alt="">
+            
+        </section>
+        <script languaje="Javascript">
+            document.oncontextmenu=function(){
+                return false
+            }</script>
+    </body>
+</html>
+
+
+
+
+
+
+

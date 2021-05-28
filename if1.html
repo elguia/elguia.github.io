@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html><!-- comienzo del documento HTML -->
+
+   <head><!-- Aquí empieza la cabecera de la web -->
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Influencers</title>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <link rel="stylesheet" href="estilo.css">
+       
+       <style type="text/css">
+    .imagenp{
+    width: 101%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(viajar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+         
+           .influencers{
+    background: #fafafa;
+}
+
+.subtitle{
+    font-size: 42px;
+    text-align: center;
+}
+
+
+.sect{
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    padding: 30px 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, black 0%, black 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px var(--color_shadow);
+}
+
+.card__img{
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    align-content: space-between;
+}
+
+.cards__text{
+    text-align: left;
+    width: 90%;
+    margin:0 auto;
+}
+
+.card__list{
+    color: gold;
+    font-weight: 700;
+    margin: 25px 0 12px ;
+    font-size: 18px;
+}
+
+
+.card__title{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.card__copy{
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.card__button{
+    display: block;
+    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.card__date{
+    color: var(--gold2);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.container-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.background{
+    width: 68%;
+    height: 290px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.background__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+
+.testimony{
+    background: #fafafa;
+}
+
+.testimony-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testimony__card{
+    width: 30%;
+    height: 500px;
+    background: linear-gradient(180deg,  black 0%,  black 100%);
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.testimony__copy{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    width: 90%;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow) var(--color_shadow);
+    padding: 15px 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.testimony__name{
+    font-size: 24px;
+    line-height:28px;
+}
+
+.testimony__position{
+    color: var(--gray);
+}
+
+.testimony__text{
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.google__logo{
+    margin-bottom: 20px;
+}
+
+
+.testimony__history{
+    font-size: 21px;
+    font-weight: 300;
+}
+
+
+.testimony__info{
+    width: 70%;
+}
+
+.logo--picture{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center top;
+}
+
+
+       </style>
+   </head>
+    <body > 
+        <script languaje="Javascript">
+            document.oncontextmenu=function(){
+                return false
+            }</script>
+    <section class="imagenp">
+        <div class="nombre">
+            <h1>¡Hora de conocer!</h1>
+            <p>El objetivo de viajar no es solo conocer tierras extrañas,<br>sino que en última instancia se pueda volver y ver al propio país con extrañamiento.</p>
+            <a href="index.html" class="boton">Home</a>
+            </div>
+        </section>
+        <main>
+        <section class="influencers">
+            <div class="container">
+                <h2 class="subtitle"><br><br>Influencers viajeros</h2>
+                <p class="sect">En internet hay todo tipo de influencers que nos pueden ayudar a planear un viajes.Aqui hay algunos.</p>
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="alan.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Alan por el mundo</p>
+                            <p class="card__copy">La historia de Alan Estrada es inspiradora. Él es actor y durante muchos años trabajó para productores de televisión. A todos ellos les propuso realizar un programa de viajes, pero la respuesta que obtuvo siempre fue un no. Tal era la pasión de Alan por recorrer el mundo que decidió crear un canal de YouTube y ahora es considerado uno de los influencers mexicanos más importantes de Latinoamérica.</p>
+                            <a class="card__button">Influencers mexicanos</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="luz.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Bee Traveler</p>
+                            <p class="card__copy">Luz Carreiro es una joven chiapaneca, trotamundos de la naturaleza. Sus viajes los realiza con muy bajo presupuesto, trabajando en zonas turísticas, en cruceros y haciendo voluntariado. Ella nunca tuvo por objetivo ser influencer, pero las cosas se acomodaron para que lo fuera.En cada destino, ella compartía fotos de los sitios, experiencias, mercados, platillos y personas.</p>
+                            <a class="card__button">Influencers mexicanos</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="plan.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">PlanBViajero</p>
+                            <p class="card__copy">Se trata de una pareja;  Gaby, una chica argentina y Camilo, un joven mexicano. Esta par comparte en su cuenta de Instagram PlanBViajero tips para hacer turismo responsable. Algo que los caracteriza es la creatividad y color de sus fotos y videos. </p>
+                            <a class="card__button">Influencers mexicanos</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="projects container">
+            <h2 class="subtitle"><br><br>¿Por que viajar segun ellos?</h2>
+            <p class="sect">Un libro, como un viaje, se comienza con inquietud y se termina con melancolía.</p>
+            <article class="container-bg">
+                <div class="card">
+                    <div class="cards__text">
+                        <h3 class="card__title">Viajar favorece la salud mental</h3>
+                        <p class="card__copy">Nada como la distancia para ver las cosas con perspectiva y encarar los problemas con una nueva actitud. Vivir experiencias gozosas o diferentes y soltar el lastre de la rutina es la mejor terapia contra la melancolía.</p>
+                        
+                    </div>
+                </div>
+                <div class="background">
+                    <img src="b1.jpg" class="background__img">
+                </div>
+                <div class="card">
+                    <div class="cards__text">
+                        <h3 class="card__title">Al viajar se entra en contacto con otras culturas</h3>
+                        <p class="card__copy">Lo que permite tomar conciencia de la propia y valorar objetivamente sus virtudes y defectos (los bares con el suelo lleno de cáscaras de gambas y las calles llenas de cacas de perro no molan)</p>
+                    </div>
+                </div>
+                <div class="background">
+                    <img src="b2.jpg" class="background__img">
+                </div>
+            </article>
+        </section>
+        <section class="testimony">
+            <div class="container">
+                <h2 class="subtitle"><br><br>Algunos influencers mas</h2>
+                <p class="sect">Cientos de empresas confian en nosotros</p>
+
+                <div class="testimony-container">
+                    <div class="testimony__card">
+                        <img src="t1.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Liz Castillo</h3>
+                                <p class="testimony__position">Protagonista del canal de YouTube y cuenta de Instagram Mundukos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <img src="t2.jpg" class="testimony__img">
+                        <div class="testimony__copy">
+                            <div class="testimony__info">
+                                <h3 class="testimony__name">Ale Toledano</h3>
+                                <p class="testimony__position">Creadora de CostoXdestino,comparte tips, rutas, tiempos de traslado y el promedio costo del destino.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony__card">
+                        <div class="testimony__text">
+                            <img src="google_logo.svg" class="google__logo">
+                            <p class="testimony__history">“#LoQueMeInspira es conocer estos bellos lugares de nuestro hermoso país  Bandera de México”</p>
+                            <div class="testimony__copy testimony__copy--modifier">
+                                <img src="t2.jpg" class="testimony__logo logo--picture">
+                                <div class="testimony__info">
+                                    <h3 class="testimony__name">Ale Toledano</h3>
+                                    <p class="testimony__position">Creadora de CostoXdestino</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>

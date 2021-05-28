@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html><!-- comienzo del documento HTML -->
+
+   <head><!-- Aquí empieza la cabecera de la web -->
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title>Blog</title>
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <link rel="stylesheet" href="estilo.css">
+       
+       <style type="text/css">
+    .imagenp{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(monje.jpg);
+    background-size: cover;
+    background-position: center;
+}
+           .segundo{
+               width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(amilcar.jpg);
+    background-size: cover;
+    background-position: center;
+           }
+           .galeria{
+               width: 100%;
+               align-content: center;
+               height: 100px;
+               
+           }
+           .galeria h1{
+               text-align: center;
+               font-size: 36px;
+               padding: 35px 30px 10px 30px;
+               font-family: 'MuseoModerno', cursive;
+font-family: 'Oswald', sans-serif;
+           }
+           .galeria p{
+               text-align: center;
+               color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 10px 10px 10px;
+           }
+           .fotos{
+               margin: 10px 50px;
+           }
+           .fotos img{
+               transition: 1s;
+               padding: 15px;
+               width: 22%;
+               height: 200px;
+               filter: grayscale(100%);
+           }
+           .fotos img:hover{
+               transform: rotateY(180deg);
+               filter: grayscale(0%);
+           }
+           .videos{
+               height: 650px;
+               display: flex;
+               justify-content: space-evenly;
+               align-items: center;
+           }
+           .videos h2{
+               font-size: 50px;
+               font-weight: 500;
+               margin-bottom: 5px;
+           }
+           .videos p{
+               margin-bottom: 15px;
+               color: #fff;
+           }
+           .videos a{
+               display: inline-block;
+               padding: 7px 0;
+               color: #283773;
+               text-decoration: none;
+               width: 100px;
+               text-align: center;
+               border:1px solid #fff;
+               border-radius: 50px;
+               background: #fff;
+           }
+           .videos img{
+               height: 60%;
+               background-image: transparent;
+           }
+           .videos:nth-child(4){
+               background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+           }
+           .videos:nth-child(5){
+               background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+           }
+           .videos:nth-child(6){
+               background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+           }
+           .videos:nth-child(7){
+               background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+           }
+           .videos:nth-child(8){
+               background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+           }
+           .nombres{
+               width: 100%;
+               align-content: center;
+               height: 80px;
+           text-align: center;
+}
+.nombres h1{
+   font-size: 62px;
+    padding: 30px 20px 10px 30px;
+    font-family: 'MuseoModerno', cursive;
+font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+.nombres p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+ </style>
+   </head>
+    <body > 
+        
+    <section class="imagenp">
+        <div class="nombre">
+            <h1>Blogs de viajes</h1>
+            <p>No vaciles nunca en irte lejos, más allá de todos los <br>mares, de todas las fronteras, de todos los países, de todas las creencias</p>
+            <a href="index.html" class="boton">Home</a>
+            </div>
+        </section>
+        <section>
+            <div class="galeria">
+            <h1>Galeria de viajes</h1>
+            <p>Los mejores momentos de viajeros solo en este blog.</p>
+            </div>
+            <div class="fotos">
+            <a href="img1.jpg" data-lightbox="imagened" data="titulo-imagen">
+                <img src="img1.jpg" alt="">
+                </a>
+            <a href="img2.jpg">
+                <img src="img2.jpg" alt="">
+                </a>
+                <a href="img3.jpg">
+                <img src="img3.jpg" alt="">
+                </a>
+                <a href="img4.jpg">
+                <img src="img4.jpg" alt="">
+                </a>
+                <a href="img5.jpg">
+                <img src="img5.jpg" alt="">
+                </a>
+                <a href="img6.jpg">
+                <img src="img6.jpg" alt="">
+                </a>
+                <a href="img7.jpg">
+                <img src="img7.jpg" alt="">
+                </a>
+                <a href="img8.jpg">
+                <img src="img8.jpg" alt="">
+                </a>
+                <a href="img9.jpg">
+                <img src="img9.jpg" alt="">
+                </a>
+                <a href="img10.jpg">
+                <img src="img10.jpg" alt="">
+                </a>
+                <a href="img11.jpg">
+                <img src="img11.jpg" alt="">
+                </a>
+                <a href="img12.jpg">
+                <img src="img12.jpg" alt="">
+                </a>
+            </div>
+        </section>
+        
+        <section class="segundo">
+            <div class="nombres">
+            <h1>Videos de blogs</h1>
+            <p>Explora nuestra pagina web,visualiza nuestros videos seleccionados<br>para ti.Viajar es hacer una pausa y todos necesitamos una pausa.</p>
+            
+            </div>
+        </section>
+        
+            <section class="videos" id="sec1">
+        <div class="continedor">
+            <h2>Motivate a<br>viajar</h2>
+            <p>Si alguna vez soñaste con viajar por el mundo, este<br>video te dará la inspiración necesaria para lograrlo. Queremos<br>compartir contigo las experiencias, aprendizajes y aventuras<br>de nuestro último año de viaje alrededor del mundo. </p>
+            <a href="https://www.youtube.com/watch?v=g8yuHI6LGKI" target="_blank">Link</a>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g8yuHI6LGKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <section class="videos" id="sec2">
+        <div class="continedor">
+            <h2>Viajar solo</h2>
+            <p>A muchos de nosotros nos ha pasado que tenemos temor<br>de viajar solos,pues tememos a perdernos o sentirnos solos pero<br>no es asi.Empezar a viajar solos puede no ser tan malo.</p>
+            <a href="https://www.youtube.com/watch?v=2-_BvBiOmno" target="_blank">Link</a>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2-_BvBiOmno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <section class="videos" id="sec3">
+        <div class="continedor">
+            <h2>No mas miedo<br>mas libertad</h2>
+            <p>Viajar es mucho más que conocer lugares, es<br>descubrirse y dejarse inspirar por los paisajes, por la cultura y<br>por las personas con las que lo compartes... entre ellas tú mismo.</p>
+            <a href="https://www.youtube.com/watch?v=nlZnALokbgM" target="_blank">Link</a>
+            </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nlZnALokbgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <section class="videos" id="sec4">
+        <div class="continedor">
+            <h2>¿Por que<br>viajar?</h2>
+            <p>La pregunta que quisa todos os hacemos y<br>es ¿Por qué debería viajar?,bueno viajar es parte de vivir,conocemos y<br>experimentamos nuevas cosas,aprendemos unos de otros y lo mas<br>importante nos encontramos.</p>
+            <a href="https://www.youtube.com/watch?v=xhfbi5Jr1eQ" target="_blank">Link</a>
+            </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xhfbi5Jr1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        
+        <section class="videos" id="sec5">
+        <div class="continedor">
+            <h2>Dejarlo todo</h2>
+            <p>No todos nos atrevemos a dejarlo todo y viajar<br>por el mundo y explorar, pero,¿tu estas dispuesto?</p>
+            <a href="https://www.youtube.com/watch?v=IDKQ72PXE5Y" target="_blank">Link</a>
+            </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IDKQ72PXE5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        <script languaje="Javascript">
+            document.oncontextmenu=function(){
+                return false
+            }</script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
